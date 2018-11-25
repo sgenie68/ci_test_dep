@@ -21,7 +21,7 @@ int depfunc1(int a)
 
 int depfunc2(int a)
 {
-	return a+a+a;
+	return 3*a;
 }
 
 
