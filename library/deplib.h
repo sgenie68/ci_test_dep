@@ -1,5 +1,5 @@
-#ifndef LIBRARY_H
-#define LIBRARY_H
+#ifndef DEPLIBRARY_H
+#define DEPLIBRARY_H
 
 #ifdef __cplusplus
 extern "C" {
