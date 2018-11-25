@@ -3,11 +3,8 @@
 # variables
 USER=$1
 REPO=$2
-TRAVIS_ACCESS_TOKEN=$TRAVIS_ACCESS_TOKEN
-BRANCH=$4
-MESSAGE=$5
-
-echo "Token: $TRAVIS_ACCESS_TOKEN"
+BRANCH=$3
+MESSAGE=$4
 
 # login to travis and get token
 travis login --skip-completion-check --github-token $TRAVIS_ACCESS_TOKEN

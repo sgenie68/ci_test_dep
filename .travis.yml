@@ -5,5 +5,5 @@ before_script:
 script:
    - make
 after_script:
-   - bash ./trigger.sh sgenie68 ci_test master $TRAVIS_ACCESS_TOKEN master "Done"
+   - bash ./trigger.sh "sgenie68" "ci_test" "master" "master" "Done"
 
