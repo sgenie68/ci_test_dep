@@ -5,8 +5,8 @@
 extern "C" {
 #endif
 
-int func1(int a);
-int func2(int a);
+int depfunc1(int a);
+int depfunc2(int a);
 
 #ifdef __cplusplus
 }

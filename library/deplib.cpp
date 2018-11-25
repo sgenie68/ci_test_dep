@@ -14,12 +14,12 @@ static void finalizer(void) {
 }
 
 
-int func1(int a)
+int depfunc1(int a)
 {
 	return a+a;
 }
 
-int func2(int a)
+int depfunc2(int a)
 {
 	return a+a+a;
 }
