@@ -11,6 +11,7 @@ Issues
 For any bug reports or feature requests
 please post an issue on GitHub:
 
+Added token
 * [general ci_test issues][issues-main-url]
 * [issues specific to ci_test][issues-ver-url]
 
