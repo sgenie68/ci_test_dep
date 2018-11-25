@@ -2,8 +2,8 @@ sudo: false
 language: bash
 before_script:
    - gem install travis
-- script
-  make
+script:
+   - make
 after_script:
    - bash ./trigger.sh sgenie68 ci_test master $TRAVIS_ACCESS_TOKEN master "Done"
 
