@@ -1,0 +1,8 @@
+sudo: false
+language: bash
+before_script:
+   - gem install travis
+after_script:
+   - chmod +x trigger.sh
+   - ./trigger.sh sgenie68 ci_test master $TRAVIS_ACCESS_TOKEN 
+
