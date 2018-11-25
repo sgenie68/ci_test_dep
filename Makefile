@@ -1,19 +1,12 @@
 MAKE=make
 
-all: library test
+all: deplib
 
-library: 
+deplib: 
 	$(MAKE) -C library
 	$(MAKE) -C library install
 
-test: 
-	$(MAKE) -C test
-
-run_test:
-	$(MAKE) -C test run_test
-
-.PHONY: library test
+.PHONY: library
 
 clean:
 	$(MAKE) -C library clean
-	$(MAKE) -C test clean
