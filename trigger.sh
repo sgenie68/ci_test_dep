@@ -14,8 +14,8 @@ IFS=' ' read -r -a array <<< "$TOKEN"
 TOKEN=${array[${#array[@]}-1]}
 
 # inspired from plume-lib, check arguments and add message
-if [ $# -eq 5 ] ; then
-    MESSAGE=",\"message\": \"$5\""
+if [ $# -eq 4 ] ; then
+    MESSAGE=",\"message\": \"$4\""
 elif [ -n "$TRAVIS_REPO_SLUG" ] ; then
     MESSAGE=",\"message\": \"Triggered from upstream build of $TRAVIS_REPO_SLUG by commit "`git rev-parse --short HEAD`"\""
 fi
