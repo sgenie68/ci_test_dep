@@ -2,7 +2,7 @@
 
 This is test for dependency trigger CI
 
-Test results:
+Test results (current repo only, no upstream):
 
 [![Build Status](https://travis-ci.org/sgenie68/ci_test_dep.svg?branch=master)](https://travis-ci.org/sgenie68/ci_test_dep)
 
@@ -11,7 +11,6 @@ Issues
 For any bug reports or feature requests
 please post an issue on GitHub:
 
-Added token
 * [general ci_test issues][issues-main-url]
 * [issues specific to ci_test][issues-ver-url]
 
